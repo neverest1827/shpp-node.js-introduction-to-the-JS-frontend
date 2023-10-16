@@ -1,0 +1,158 @@
+.task{
+    margin-bottom: 20px;
+}
+
+.title{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#rect, .rect {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin: 0 50px 0 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 4;
+    font-size: 20px;
+}
+
+.button__box{
+    padding-top: 30px;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    max-height: 50px;
+    cursor: pointer;
+    
+}
+
+.button__box-swich3{
+    margin-left: 10px;
+}
+
+.button:hover{
+    background-color: #ccc;
+}
+
+button:last-child{
+    margin-right: 0;
+}
+
+.hiden {
+    visibility: hidden;
+}
+
+.swich {
+    display: none;
+}
+
+.rect__box{
+    display: flex;
+    margin-right: 20px;
+}
+
+.input{
+    width: 200px;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.input:focus{
+    background-color: #ccc;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.button__red{
+    margin-bottom: 10px;
+}
+
+.red {
+    visibility: hidden;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.wrapper{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.green{
+    visibility: hidden;
+    height: 50px;
+    width: 20px;
+    background-color: green;
+}
+
+#img-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.textarea{
+    width: 300px;
+    height: 150px;
+    margin-left: 10px;
+    resize: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-textarea{
+    position: relative;
+    top: -16px;
+}
+
+.cursor__box, .navigator__box, .geo__box{
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+    background-color: #ccc;
+}
+
+.navigator__box{
+    top: 35px;
+}
+
+.geo__box{
+    top: 70px;
+}
+
+.curor-title, .navigator-title, .geo-title{
+    position: fixed;
+    top: 0;
+    right: 260px;
+}
+
+.navigator-title{
+    top: 35px;
+}
+
+.geo-title{
+    top: 70px;
+}
+
+
